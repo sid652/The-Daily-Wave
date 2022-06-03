@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardview"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardElevation="9dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/news_image"
+                android:padding="5dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_heading"
+                android:ellipsize="end"
+                android:padding="5dp"
+                android:fontFamily="@font/sourcesansproregular"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Main heading is here Main heading is here Main heading is here Main heading is here Main heading is here Main heading is here"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/description"
+                android:layout_weight="1"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:text="jkabfjka kajbskjba kjabsk jbaksb kajbjak kjabs kabs akjbskak ska sk a skja ks ak kjzska sajk sk kja skjabbakf akbfka kjab ajkb ajsbf ksbakas kjfbks k afkakfak saskjbfa skjakfa fkajks fksa fka fkafakfkasfjka fa fjkas fak fkjas fkjas fka fk asf kjafjka kj ajjs fk jafk askf  sk fkjsa  sakjf kas "
+                android:textColor="#424242"/>
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sourcesansproregular"
+                android:padding="5dp"
+                android:text="By Siddharth"
+                android:layout_marginTop="10dp"
+                android:textColor="#9E9E9E"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/sourcesansproregular"
+                android:text="Published at"
+                android:padding="5dp"
+                android:textColor="#616161"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

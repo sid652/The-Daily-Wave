@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">The Daily Wave</string>
+    <string name="the_daily_wave">The Daily Wave</string>
+    <string name="made_by_siddharth">Made by Siddharth</string>
+    <string name="home">Home</string>
+    <string name="sports">Sports</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="technology">Technology</string>
+</resources>
